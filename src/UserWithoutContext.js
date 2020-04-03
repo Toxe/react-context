@@ -1,10 +1,10 @@
 import React from "react";
 import "./User.css";
 
-export default function UserContainer(props) {
+export default function UserContainerWithoutContext(props) {
     return (
-        <div className="UserContainer">
-            <div className="title">UserContainer</div>
+        <div className="UserContainer-WithoutContext">
+            <div className="title-WithoutContext">UserContainerWithoutContext</div>
             <UserContainerContent user={props.user} />
         </div>
     );
@@ -12,8 +12,8 @@ export default function UserContainer(props) {
 
 function UserContainerContent(props) {
     return (
-        <div className="UserContainerContent">
-            <div className="title">UserContainerContent</div>
+        <div className="UserContainerContent-WithoutContext">
+            <div className="title-WithoutContext">UserContainerContent</div>
             <div>for user id: {props.user.id}</div>
             <UserContainerBody user={props.user} />
         </div>
@@ -22,8 +22,8 @@ function UserContainerContent(props) {
 
 function UserContainerBody(props) {
     return (
-        <div className="UserContainerBody">
-            <div className="title">UserContainerBody</div>
+        <div className="UserContainerBody-WithoutContext">
+            <div className="title-WithoutContext">UserContainerBody</div>
             <UserInfo user={props.user} />
         </div>
     );
@@ -31,8 +31,8 @@ function UserContainerBody(props) {
 
 function UserInfo(props) {
     return (
-        <div className="UserInfo">
-            <div className="title">UserInfo</div>
+        <div className="UserInfo-WithoutContext">
+            <div className="title-WithoutContext">UserInfo</div>
             <div>User id: {props.user.id}</div>
             <div>User name: {props.user.name}</div>
         </div>

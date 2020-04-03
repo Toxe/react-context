@@ -1,23 +1,23 @@
-.UserContainer {
+.UserContainer-WithoutContext {
     background-color: darkkhaki;
-    padding: 10px;
+    padding: 5px 20px 2px 20px;
 }
 
-.UserContainerContent {
+.UserContainerContent-WithoutContext {
     background-color: aqua;
-    padding: 10px;
+    padding: 5px 20px 2px 20px;
 }
 
-.UserContainerBody {
+.UserContainerBody-WithoutContext {
     background-color: cornflowerblue;
-    padding: 10px;
+    padding: 5px 20px 2px 20px;
 }
 
-.UserInfo {
+.UserInfo-WithoutContext {
     background-color: blanchedalmond;
-    padding: 10px;
+    padding: 5px 20px 2px 20px;
 }
 
-.title {
+.title-WithoutContext {
     font-weight: bold;
 }

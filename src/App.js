@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import UserContainer from "./User";
+import UserContainerWithoutContext from "./UserWithoutContext";
 
 export default class App extends Component {
     render() {
@@ -20,9 +20,9 @@ export default class App extends Component {
 
         return (
             <div>
-                <UserContainer user={users[0]} />
-                <UserContainer user={users[1]} />
-                <UserContainer user={users[2]} />
+                <UserContainerWithoutContext user={users[0]} />
+                <UserContainerWithoutContext user={users[1]} />
+                <UserContainerWithoutContext user={users[2]} />
             </div>
         );
     }
