@@ -1,5 +1,5 @@
 import React from "react";
-import "./User.css";
+import "./UserWithoutContext.css";
 
 export default function UserContainerWithoutContext(props) {
     return (
