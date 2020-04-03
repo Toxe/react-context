@@ -1,0 +1,23 @@
+.UserContainer {
+    background-color: darkkhaki;
+    padding: 10px;
+}
+
+.UserContainerContent {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.UserContainerBody {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.UserInfo {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
