@@ -14,6 +14,7 @@ function UserContainerContent(props) {
     return (
         <div className="UserContainerContent">
             <div className="title">UserContainerContent</div>
+            <div>for user id: {props.user.id}</div>
             <UserContainerBody user={props.user} />
         </div>
     );
