@@ -1,0 +1,23 @@
+.UserContainer-WithContext {
+    background-color: peru;
+    padding: 5px 20px 2px 20px;
+}
+
+.UserContainerContent-WithContext {
+    background-color: palegoldenrod;
+    padding: 5px 20px 2px 20px;
+}
+
+.UserContainerBody-WithContext {
+    background-color: palegreen;
+    padding: 5px 20px 2px 20px;
+}
+
+.UserInfo-WithContext {
+    background-color: orange;
+    padding: 5px 20px 2px 20px;
+}
+
+.title-WithContext {
+    font-weight: bold;
+}
