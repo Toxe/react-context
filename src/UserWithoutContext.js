@@ -14,7 +14,7 @@ function UserContainerContent(props) {
     return (
         <div className="UserContainerContent-WithoutContext">
             <div className="title-WithoutContext">UserContainerContent</div>
-            <div>for user id: {props.user.id}</div>
+            <div>for user with id={props.user.id} and count={props.user.count}</div>
             <UserContainerBody user={props.user} />
         </div>
     );
@@ -35,6 +35,7 @@ function UserInfo(props) {
             <div className="title-WithoutContext">UserInfo</div>
             <div>User id: {props.user.id}</div>
             <div>User name: {props.user.name}</div>
+            <div>Counter: {props.user.count}</div>
         </div>
     );
 }

@@ -18,6 +18,11 @@
     padding: 5px 20px 2px 20px;
 }
 
+.UserCounter-WithContext {
+    background-color: rgb(255, 195, 83);
+    padding: 5px 20px 2px 20px;
+}
+
 .title-WithContext {
     font-weight: bold;
 }
