@@ -22,7 +22,7 @@ export default class UserContainerWithContext extends Component {
 
     render() {
         const context = {
-            state: this.state,
+            user: this.state,
             incCount: this.incCount,
             decCount: this.decCount,
         };
@@ -44,7 +44,7 @@ function UserContainerContent() {
             {(context) => (
                 <div className="UserContainerContent-WithContext">
                     <div className="title-WithContext">UserContainerContent</div>
-                    <div>for user with id={context.state.id} and count={context.state.count}</div>
+                    <div>for user with id={context.user.id} and count={context.user.count}</div>
                     <UserContainerBody />
                 </div>
             )}
@@ -67,8 +67,8 @@ function UserInfo() {
             {(context) => (
                 <div className="UserInfo-WithContext">
                     <div className="title-WithContext">UserInfo</div>
-                    <div>User id: {context.state.id}</div>
-                    <div>User name: {context.state.name}</div>
+                    <div>User id: {context.user.id}</div>
+                    <div>User name: {context.user.name}</div>
                     <UserCounter />
                 </div>
             )}
@@ -81,7 +81,7 @@ function UserCounter() {
         <UserContext.Consumer>
             {(context) => (
                 <div className="UserCounter-WithContext">
-                    <div>Counter: {context.state.count}</div>
+                    <div>Counter: {context.user.count}</div>
                     <button onClick={context.decCount}>-</button>
                     <button onClick={context.incCount}>+</button>
                 </div>
